@@ -1,0 +1,50 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+   background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/240_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+}
+ 
+.board{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.row{
+  display: flex;
+
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  margin: 2px;
+  font-size: 24px;
+  
+ 
+}
+
+.win{
+  margin-top: 28px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.again{
+   width: 100px;
+   height: 50px;
+   border-radius: 22px;
+   border: 1px solid black;
+}
